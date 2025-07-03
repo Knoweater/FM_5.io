@@ -102,6 +102,11 @@ body {
     font-size: clamp(0.5rem, 2.5vw, 0.8rem);
 }
 
+.div-box:hover {
+    background-color: var(--Green-700);
+    cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
     .container {
         display: block;
